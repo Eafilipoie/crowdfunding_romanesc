@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+.liner {
+  display: flex;
+  flex-direction: row;
+  height: 3px;
+}
+.liner .liner-color {
+  width: 33.33%;
+}
+.liner .liner-color.red {
+  background-color: #ff7474;
+}
+.liner .liner-color.yellow {
+  background-color: #f1f58d;
+}
+.liner .liner-color.blue {
+  background-color: #72baf1;
+}
